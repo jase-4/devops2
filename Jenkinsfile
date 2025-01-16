@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone your repository
-                git 'https://github.com/your-repo-url.git'
+                git 'https://github.com/jase-4/devops2'
             }
         }
         stage('Build Docker Image') {
